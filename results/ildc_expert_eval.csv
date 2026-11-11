@@ -1,0 +1,4 @@
+system,P,S_recall,alpha_NDCG,NDCG
+BM25,0.92,0.9,0.8,0.93
+MMR,0.78,0.8,0.737,0.825
+Submodular (Saturated),0.92,0.9,0.782,0.929

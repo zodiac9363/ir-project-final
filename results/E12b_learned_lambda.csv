@@ -1,0 +1,5 @@
+strategy,alpha_NDCG
+fixed lambda 0.7,0.489
+fixed lambda 0.9,0.626
+learned lambda (cross-validated ridge),0.644
+best lambda per query (oracle),0.663

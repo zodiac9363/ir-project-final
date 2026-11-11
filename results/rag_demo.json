@@ -1,0 +1,752 @@
+{
+ "meta": {
+  "embedder": "LSA-32 (offline fallback)",
+  "vectordb": "numpy",
+  "dim": 32,
+  "n_vectors": 400,
+  "llm": "ollama:qwen2.5:3b",
+  "faiss_matches_exact_numpy": true,
+  "llm_is_real": true
+ },
+ "queries": [
+  {
+   "name": "late payment + termination + penalty",
+   "dense_top": [
+    {
+     "id": 371,
+     "score": 0.861,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 354,
+     "score": 0.86,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 265,
+     "score": 0.857,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 275,
+     "score": 0.856,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 323,
+     "score": 0.852,
+     "issues": [
+      "Late payment"
+     ]
+    }
+   ],
+   "picks": [
+    {
+     "id": 371,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 371,
+     "rank": 2,
+     "gain": 0.6137
+    },
+    {
+     "id": 275,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 275,
+     "rank": 18,
+     "gain": 0.0361
+    },
+    {
+     "id": 354,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 354,
+     "rank": 1,
+     "gain": 0.0334
+    },
+    {
+     "id": 164,
+     "issues": [
+      "Late payment",
+      "Penalty clause"
+     ],
+     "dup": false,
+     "root": 164,
+     "rank": 35,
+     "gain": 0.0324
+    },
+    {
+     "id": 342,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 342,
+     "rank": 6,
+     "gain": 0.0306
+    },
+    {
+     "id": 265,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 265,
+     "rank": 11,
+     "gain": 0.0297
+    },
+    {
+     "id": 323,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 323,
+     "rank": 5,
+     "gain": 0.0294
+    },
+    {
+     "id": 43,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 43,
+     "rank": 4,
+     "gain": 0.0287
+    },
+    {
+     "id": 92,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 92,
+     "rank": 7,
+     "gain": 0.0285
+    },
+    {
+     "id": 35,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 35,
+     "rank": 3,
+     "gain": 0.0285
+    }
+   ],
+   "explanation": "This set of cases suits the query as it includes multiple relevant cases on late payment, with case #354 having the highest BM25 rank, indicating it is the most relevant. Cases #354 and #164 also cover the additional issue of penalty clauses, which is not covered by the lawyer's query. No cases cover wrongful termination.",
+   "rewrites": [
+    "In this judgment, the plaintiff has successfully demonstrated that the defendant has breached the terms of the contract by failing to make timely payments as stipulated in the invoice. The defendant's arrears have now reached a significant amount, and the court finds that the defendant is in default, thus holding them liable for the overdue payments, interest, and any penalties as per the contract. The plaintiff is entitled to seek remittance of the outstanding amounts, including any unpaid installments, and the court will consider the appeal if the defendant fails to comply with this judgment.",
+    "The defendant's failure to comply with the agreement to make timely payments resulted in arrears. The defendant appealed the judgment, but the court held that the default in payment was clear and the obligation to make installment payments was not met. The court also noted that the interest on the overdue invoice amount was upheld, as the defendant's delay in payment constituted a default under the contract."
+   ]
+  },
+  {
+   "name": "late payment + warranty + misrepresentation",
+   "dense_top": [
+    {
+     "id": 354,
+     "score": 0.854,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 35,
+     "score": 0.854,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 126,
+     "score": 0.841,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 342,
+     "score": 0.84,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 43,
+     "score": 0.837,
+     "issues": [
+      "Late payment"
+     ]
+    }
+   ],
+   "picks": [
+    {
+     "id": 126,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 126,
+     "rank": 21,
+     "gain": 0.6148
+    },
+    {
+     "id": 371,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 371,
+     "rank": 2,
+     "gain": 0.0364
+    },
+    {
+     "id": 354,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 354,
+     "rank": 1,
+     "gain": 0.032
+    },
+    {
+     "id": 35,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 35,
+     "rank": 3,
+     "gain": 0.0314
+    },
+    {
+     "id": 342,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 342,
+     "rank": 6,
+     "gain": 0.0306
+    },
+    {
+     "id": 43,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 43,
+     "rank": 4,
+     "gain": 0.0303
+    },
+    {
+     "id": 154,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 154,
+     "rank": 16,
+     "gain": 0.0293
+    },
+    {
+     "id": 299,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 299,
+     "rank": 8,
+     "gain": 0.0273
+    },
+    {
+     "id": 323,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 323,
+     "rank": 5,
+     "gain": 0.0269
+    },
+    {
+     "id": 265,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 265,
+     "rank": 11,
+     "gain": 0.0265
+    }
+   ],
+   "explanation": "This set of cases suits the query because all selected cases are related to the issue of Late payment, which aligns with the lawyer's query. The cases are ranked from the highest to the lowest BM25 rank, indicating they are the most relevant to the lawyer's query. Issues of Breach of warranty and Misrepresentation are not covered by these cases, as per the given information.",
+   "rewrites": [
+    "The defendant failed to comply with the agreement by making timely payments as stipulated in the contract, which constitutes a breach of the installment clause. The plaintiff has the right to appeal for arrears, including interest, as a result of the defendant's default and delay in payment. The court will consider the appeal and determine if further action is necessary to enforce the agreement and remedy the situation.",
+    "In this case, the plaintiff has successfully argued that the defendant has breached the contract by failing to make timely payments as stipulated in the invoice. The defendant's arrears have now reached a significant amount, and the court finds that the defendant is in default, thus holding them liable for the overdue payments. Furthermore, the court notes that the defendant's failure to remit the installment payments as agreed upon in the contract section on payment terms constitutes a breach of the agreement, and the plaintiff is entitled to seek compensation for the interest on the overdue payments."
+   ]
+  },
+  {
+   "name": "late payment + termination + jurisdiction",
+   "dense_top": [
+    {
+     "id": 371,
+     "score": 0.886,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 354,
+     "score": 0.884,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 93,
+     "score": 0.876,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 323,
+     "score": 0.871,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 92,
+     "score": 0.869,
+     "issues": [
+      "Late payment"
+     ]
+    }
+   ],
+   "picks": [
+    {
+     "id": 371,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 371,
+     "rank": 2,
+     "gain": 0.6143
+    },
+    {
+     "id": 342,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 342,
+     "rank": 6,
+     "gain": 0.0368
+    },
+    {
+     "id": 354,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 354,
+     "rank": 1,
+     "gain": 0.0331
+    },
+    {
+     "id": 154,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 154,
+     "rank": 16,
+     "gain": 0.0318
+    },
+    {
+     "id": 323,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 323,
+     "rank": 5,
+     "gain": 0.03
+    },
+    {
+     "id": 92,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 92,
+     "rank": 7,
+     "gain": 0.0297
+    },
+    {
+     "id": 43,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 43,
+     "rank": 4,
+     "gain": 0.0293
+    },
+    {
+     "id": 35,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 35,
+     "rank": 3,
+     "gain": 0.0289
+    },
+    {
+     "id": 93,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 93,
+     "rank": 15,
+     "gain": 0.0278
+    },
+    {
+     "id": 265,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 265,
+     "rank": 11,
+     "gain": 0.0275
+    }
+   ],
+   "explanation": "This set of cases suits the query because all of them are related to the issue of Late payment, which is the primary query issue. None of the cases cover Wrongful termination or Jurisdiction, as those issues were explicitly noted as not covered in the query. The cases are ranked from the highest BM25 rank 1 to the lowest BM25 rank 16, indicating they are highly relevant to the query of Late payment.",
+   "rewrites": [
+    "In this case, the plaintiff has successfully argued that the defendant has breached the contract by failing to make timely payments as stipulated in the invoice. The defendant's arrears have now reached a significant amount, and the court finds that the defendant is in default, thus holding them liable for the overdue payments. Furthermore, the court notes that the defendant's failure to remit the installment payments as agreed upon in the contract section on payment terms constitutes a breach of the agreement, and the plaintiff is entitled to seek compensation for the interest on the overdue payments.",
+    "The defendant's failure to make the agreed installment payments as per the contract constitutes a breach of the obligation to make timely payments. The plaintiff's appeal for relief based on the arrears of payment is well-founded, as the defendant's delay in fulfilling their payment obligations has caused financial hardship. The court hereby orders the defendant to pay the overdue payments, including interest, as per the judgment, ensuring the plaintiff receives the relief they seek."
+   ]
+  },
+  {
+   "name": "CONTROL single issue: warranty",
+   "dense_top": [
+    {
+     "id": 29,
+     "score": 0.854,
+     "issues": [
+      "Breach of warranty"
+     ]
+    },
+    {
+     "id": 11,
+     "score": 0.836,
+     "issues": [
+      "Breach of warranty"
+     ]
+    },
+    {
+     "id": 113,
+     "score": 0.83,
+     "issues": [
+      "Breach of warranty"
+     ]
+    },
+    {
+     "id": 21,
+     "score": 0.827,
+     "issues": [
+      "Breach of warranty"
+     ]
+    },
+    {
+     "id": 40,
+     "score": 0.815,
+     "issues": [
+      "Breach of warranty"
+     ]
+    }
+   ],
+   "picks": [
+    {
+     "id": 372,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 372,
+     "rank": 3,
+     "gain": 0.5553
+    },
+    {
+     "id": 18,
+     "issues": [
+      "Misrepresentation",
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 18,
+     "rank": 21,
+     "gain": 0.0406
+    },
+    {
+     "id": 94,
+     "issues": [
+      "Late payment",
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 94,
+     "rank": 16,
+     "gain": 0.0383
+    },
+    {
+     "id": 21,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": true,
+     "root": 11,
+     "rank": 4,
+     "gain": 0.0366
+    },
+    {
+     "id": 34,
+     "issues": [
+      "Wrongful termination",
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 34,
+     "rank": 49,
+     "gain": 0.0362
+    },
+    {
+     "id": 11,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 11,
+     "rank": 2,
+     "gain": 0.0313
+    },
+    {
+     "id": 29,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": true,
+     "root": 11,
+     "rank": 6,
+     "gain": 0.0309
+    },
+    {
+     "id": 187,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": false,
+     "root": 187,
+     "rank": 1,
+     "gain": 0.0307
+    },
+    {
+     "id": 113,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": true,
+     "root": 11,
+     "rank": 5,
+     "gain": 0.0291
+    },
+    {
+     "id": 40,
+     "issues": [
+      "Breach of warranty"
+     ],
+     "dup": true,
+     "root": 11,
+     "rank": 9,
+     "gain": 0.0291
+    }
+   ],
+   "explanation": "This set of cases suits the query because it includes multiple instances of breach of warranty, with case #187 being the most relevant due to its high BM25 rank, indicating it is the most relevant case to the query. Additionally, cases #11, #29, and #113 are near-copies of each other, suggesting they cover similar grounds related to breach of warranty.",
+   "rewrites": [
+    "In this case, the plaintiff alleged that the defendant breached the warranty clause of the contract, which guaranteed the fitness and merchantable quality of the goods. The court held that the goods were defective and did not meet the obligations set forth in the contract, leading to the defendant's liability for the plaintiff's losses. The court also ordered the defendant to provide either a recall or a replacement of the defective goods, ensuring that the obligation to maintain the quality and fitness of the goods was fulfilled.",
+    "The defendant is held liable for misrepresentation and breach of warranty in this case. It was found that the defendant made fraudulent inducement by using clause that concealed a defect in the goods, which were represented as merchantable. The court also ruled that the defendant failed to disclose the defect, thus breaching the warranty of fitness for the purpose."
+   ]
+  },
+  {
+   "name": "CONTROL single issue: late payment",
+   "dense_top": [
+    {
+     "id": 154,
+     "score": 0.867,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 93,
+     "score": 0.863,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 379,
+     "score": 0.856,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 198,
+     "score": 0.839,
+     "issues": [
+      "Late payment"
+     ]
+    },
+    {
+     "id": 342,
+     "score": 0.835,
+     "issues": [
+      "Late payment"
+     ]
+    }
+   ],
+   "picks": [
+    {
+     "id": 342,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 342,
+     "rank": 4,
+     "gain": 0.6088
+    },
+    {
+     "id": 154,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 154,
+     "rank": 2,
+     "gain": 0.0381
+    },
+    {
+     "id": 371,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 371,
+     "rank": 3,
+     "gain": 0.0369
+    },
+    {
+     "id": 337,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 337,
+     "rank": 1,
+     "gain": 0.0306
+    },
+    {
+     "id": 50,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 50,
+     "rank": 17,
+     "gain": 0.0295
+    },
+    {
+     "id": 379,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": true,
+     "root": 154,
+     "rank": 6,
+     "gain": 0.0294
+    },
+    {
+     "id": 93,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 93,
+     "rank": 9,
+     "gain": 0.0292
+    },
+    {
+     "id": 354,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 354,
+     "rank": 8,
+     "gain": 0.0287
+    },
+    {
+     "id": 198,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": false,
+     "root": 198,
+     "rank": 15,
+     "gain": 0.0286
+    },
+    {
+     "id": 208,
+     "issues": [
+      "Late payment"
+     ],
+     "dup": true,
+     "root": 154,
+     "rank": 12,
+     "gain": 0.0272
+    }
+   ],
+   "explanation": "This set of cases suits the query because it includes the top-ranked case (rank 1) which is a relevant and recent instance of a Late payment issue, with no near-copies present. The absence of near-copies ensures that the lawyer can benefit from unique insights without redundancy.",
+   "rewrites": [
+    "In this case, the defendant failed to make the agreed installment payments as per the contract, constituting a breach of the obligation to make timely payments. The plaintiff has now requested relief for the arrears and interest incurred due to the delay in payment. The court considers the plaintiff's request for relief and judgment in favor of the plaintiff, compelling the defendant to pay the overdue payments and interest, thereby providing a resolution to the dispute.",
+    "The court held that the defendant's failure to make the installment payment as per the invoice's terms and conditions constituted a breach of the obligation to pay. The defendant's appeal, however, was dismissed as the arrears incurred due to the default in payment were not addressed in the original contract's clause. The court further ruled that the defendant must pay the overdue payment along with the interest, providing relief to the plaintiff."
+   ]
+  }
+ ]
+}

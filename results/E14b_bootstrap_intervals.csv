@@ -1,0 +1,7 @@
+comparison,metric,mean_diff,ci_low,ci_high,runs
+Submodular minus BM25,alpha_NDCG,0.192,0.144,0.234,6
+Submodular minus BM25,S_recall,0.611,0.5,0.667,6
+Submodular minus MMR,alpha_NDCG,-0.19,-0.245,-0.144,6
+Submodular minus MMR,S_recall,-0.056,-0.167,0.0,6
+Submodular minus xQuAD (k-means aspects),alpha_NDCG,0.06,-0.011,0.134,6
+Submodular minus xQuAD (k-means aspects),S_recall,0.278,0.111,0.444,6

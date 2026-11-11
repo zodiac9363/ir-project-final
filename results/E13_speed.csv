@@ -1,0 +1,17 @@
+pool,method,ms
+50,greedy,0.439
+50,lazy greedy,1.464
+50,MMR,0.202
+50,lazy gain evaluations,141.0
+100,greedy,0.683
+100,lazy greedy,2.932
+100,MMR,0.284
+100,lazy gain evaluations,266.0
+200,greedy,1.387
+200,lazy greedy,7.414
+200,MMR,0.22
+200,lazy gain evaluations,566.0
+400,greedy,19.541
+400,lazy greedy,17.551
+400,MMR,0.243
+400,lazy gain evaluations,1031.0

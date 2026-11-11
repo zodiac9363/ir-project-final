@@ -1,0 +1,4 @@
+system,P_judge,mean_grade,S_recall_judge
+BM25,0.84,1.36,0.867
+MMR,0.78,1.28,0.867
+Submodular,0.86,1.38,0.867
